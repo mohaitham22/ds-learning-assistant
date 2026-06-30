@@ -1,0 +1,8 @@
+# Extra dependencies needed ONLY to (re)build the knowledge base by
+# scraping and chunking (scrape.py / chunker.py). Not required to run
+# the deployed app. Install on top of requirements.txt:
+#   pip install -r requirements.txt -r requirements-dev.txt
+
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.1
